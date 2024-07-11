@@ -1,0 +1,15 @@
+import java.util.*;
+class Triangle2
+{
+  public static void main(String arg[])
+  {
+    Scanner sc=new Scanner(System.in);
+    double h,b,area;
+    System.out.println("enter height");
+    h=sc.nextDouble();
+    System.out.println("enter breadth");
+    b=sc.nextDouble();
+    area=0.5*b*h;
+    System.out.println("area of the triangle is = "+area);
+  }
+}
