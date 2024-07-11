@@ -1,0 +1,10 @@
+class Fahrenheit
+{
+  public static void main(String arg[])
+  {
+        double c,fah;
+        c=28;
+        fah=(c*1.8)+32;
+        System.out.println("celcius to fahrenheit = "+fah);
+  }
+}
