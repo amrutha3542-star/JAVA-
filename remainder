@@ -1,0 +1,17 @@
+import java.util.*;
+class Reminder
+{
+  public static void main(String arg[])
+  {
+        Scanner sc=new Scanner(System.in);
+        int a,b,q,r;
+        System.out.println("enter a value");
+        a=sc.nextInt();
+        System.out.println("enter b value");
+        b=sc.nextInt();
+        q=a/b;
+        r=a%b;
+        System.out.println("Qoutient = "+q);
+        System.out.println("Reminder = "+r);
+  }
+}
