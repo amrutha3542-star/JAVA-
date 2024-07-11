@@ -1,0 +1,18 @@
+import java.util.*;
+class Swap2
+{
+  public static void main(String arg[])
+  {
+        Scanner sc=new Scanner(System.in);
+        int a,b;
+        System.out.println("enter a value");
+        a=sc.nextInt();
+        System.out.println("enter b value");
+        b=sc.nextInt();
+        a=a+b;   
+        b=a-b;   
+        a=a-b;
+        System.out.println("after swapping a = "+a);
+        System.out.println("after swapping b = "+b);
+  }
+}
