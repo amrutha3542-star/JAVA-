@@ -1,0 +1,12 @@
+import java.util.*;
+class Volume{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+double v,r;
+System.out.println("enter the r value=");
+r=sc.nextDouble();
+v=4/3*3.14*r*r*r;
+System.out.println("volume of sphere="+v);
+}
+}
