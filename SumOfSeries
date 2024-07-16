@@ -1,0 +1,15 @@
+class Sumseries{
+public static void main(String arg[])
+{
+int i,sum;
+i=1;
+sum=0;
+do{
+sum+=i;
+i++;
+}
+while(i<=5);
+
+System.out.println("sum of series"+sum);
+}
+}
