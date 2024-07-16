@@ -1,0 +1,7 @@
+class Libtest{
+public static void main(String arg[])
+{
+double x=Math.log(1);
+System.out.println("output="+x);
+}
+}
