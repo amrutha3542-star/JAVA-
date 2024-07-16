@@ -1,0 +1,22 @@
+class Palindrome 
+{
+ public static void main( String arg[]){
+int n,rem,rev,temp;
+n=121;
+rem=0;
+rev=0;
+temp=n;
+while(n!=0){
+rem=n%10;
+rev=rev*10+n;
+n=n/10;
+}
+if(temp==rev)
+{
+System.out.println("palindrome");
+}
+else{
+System.out.println("not palindrome");
+}
+}
+}
