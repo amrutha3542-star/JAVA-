@@ -1,0 +1,23 @@
+class Array4 
+{
+public static void main(String arg[])
+{
+int a[]={1,2,3,4,5};
+int target=33,flag=0,i;
+for( i=0;i<=4;i++){
+if(a[i]==target)
+{
+flag=1;
+break;
+}
+}
+if(flag==1)
+{
+System.out.println(target+"the element is present");
+System.out.println(target+"the element is present in"+i+"array");
+}
+else{
+System.out.println(target+"the element is not  present");
+}
+}
+}
