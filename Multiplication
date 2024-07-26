@@ -1,0 +1,44 @@
+class Overloading
+{
+int m,n,i,num;
+void mul(int x,int y)
+{
+m=x;
+n=y;
+for(i=1;i<=n;i++)
+{
+num=m*i;
+System.out.println(m+"x"+i+"="+num);
+}
+}
+void mul()
+{
+m=7;
+n=10;
+for(i=1;i<=n;i++)
+{
+num=m*i;
+System.out.println(m+"x"+i+"="+num);
+}
+}
+void mulline()
+{
+m=9;
+n=10;
+for(i=1;i<=n;i++)
+{
+num=m*i;
+System.out.println(m+"x"+i+"="+num);
+}
+}
+}
+class Overloadingtest
+{
+public static void main(String arg[])
+{
+Overloading s=new Overloading();
+s.mul(3,10);
+s.mul();
+s.mulline();
+}
+}
