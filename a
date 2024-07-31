@@ -1,0 +1,22 @@
+class Armstrong
+{
+public static void main(String arg[])
+intn,rem,rev,originalnum;
+n=153;
+rem=0;
+rev=0;
+originalnum=n;
+while(originalnum!=0) {
+rem=originalnum%10;
+rev+=Math.pow(rem,3);
+originalnum/=10;
+}
+if(rev==n)
+{
+System.out.println("Armstrong");
+}
+else{
+System.out.println("not Armstrong");
+}
+}
+}
