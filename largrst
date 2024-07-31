@@ -1,0 +1,20 @@
+import java.util.*;
+class Largestnum
+{
+public static void main(String arg[])
+{
+Scanner sc=neew Scanner(System.in);
+int a,b;
+System.out.println("enter a");
+a=sc.nextInt();
+System.out.println("enter b");
+b=sc.nextInt();
+if(a>b)
+{
+System.out.println("a is the largest among two num");
+}
+else {
+System.out.println("b is the largest among  two num");
+}
+}
+}
