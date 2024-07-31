@@ -1,0 +1,22 @@
+class Celsius 
+{
+int Celsius;
+void get(int a)
+{
+Celsius = a;
+}
+void Fahrenheit()
+{
+int f=(c*(9/5))+
+System.out.println("output"=+f);
+}
+}
+class CelsiusTest
+{
+public static void main(String arg[])
+{
+Celsius atCelsius = new Celsius();
+atCelsius.get(34);
+atcelsius.fahrenheit();
+}
+} 
