@@ -1,0 +1,13 @@
+class Display1
+{
+public static void main(String arg[])
+{
+int i,num;
+int x=4;
+for(i=1;i<=5;i++)
+{
+num=x*i;
+System.out.println(x+"x"+i+"="+num);
+}
+}
+}
