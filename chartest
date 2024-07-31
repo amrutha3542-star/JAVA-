@@ -1,0 +1,8 @@
+class Chartest
+{
+public static void main(String arg[])
+{
+char x='h';
+System.out.println("the given character is"+x);
+}
+}
