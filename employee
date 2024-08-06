@@ -1,0 +1,16 @@
+class Employee {
+    double salary1;
+
+    public double getSalary1() {
+        return salary1;
+    }
+}
+
+class Manager extends Employee {
+    double travelingAllowance;
+    double houseRentAllowance;
+
+    public double getSalary2() {
+        return salary1 + travelingAllowance + houseRentAllowance;
+    }
+}
