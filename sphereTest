@@ -1,0 +1,63 @@
+abstract class Shape
+{
+abstract void cal();
+}
+class Sphere extends Shape
+{
+double r,area,volume;
+Sphere (double x)
+{
+r=x;
+}
+void cal()
+{
+area=4*Math.PI*r*r;
+volume=1.3*Math.PI*r*r*r;
+System.out.println("area of sphere="+area);
+System.out.println("volume of sphere="+volume);
+}
+}
+class Cylinder extends Shape
+{
+double h,r,area,volume;
+Cylinder(double x, double y)
+{
+r=x;
+h=y;
+}
+void cal()
+{
+area=2*Math.PI*r*(r+h);
+volume=Math.PI*r*r*h;
+System.out.println("area of cylinder="+area);
+System.out.println(" volume of cylinder="+volume);
+}
+}
+class Cone extends Shape
+{
+double h,r,area,volume;
+Cone(double x,double y)
+{
+r=x;
+h=y;
+}
+void cal()
+{
+area=Math.PI*r*(r+Math.sqrt(h*h+r*r));
+volume=Math.PI*r*r*h;
+System.out.println("area of cone="+area);
+System.out.println(" volume of cone="+volume);
+}
+}
+class Shapetest
+{
+public static void main(String arg[])
+{
+Sphere a=new Sphere(4);
+a.cal();
+Cone b=new Cone(2,3);
+b.cal();
+Cylinder c=new Cylinder(1,4);
+b.cal();
+}
+}
