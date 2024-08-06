@@ -1,0 +1,26 @@
+class Addition {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public double add(double a, double b) {
+        return a + b;
+    }
+
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public double add(double a, double b, double c) {
+        return a + b + c;
+    }
+AdditionTest
+    public static void main(String[] args) {
+        Addition addition = new Addition();
+
+        System.out.println("Sum of 5 and 3 is: " + addition.add(5, 3));
+        System.out.println("Sum of 2.5 and 3.5 is: " + addition.add(2.5, 3.5));
+        System.out.println("Sum of 1, 2, and 3 is: " + addition.add(1, 2, 3));
+        System.out.println("Sum of 1.5, 2.5, and 3.5 is: " + addition.add(1.5, 2.5, 3.5));
+    }
+}
