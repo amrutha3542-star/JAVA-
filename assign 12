@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ExamQuestions {
+    private ArrayList<String> questions = new ArrayList<>();
+
+    public void addQuestion(String question) {
+        questions.add(question);
+    }
+
+    public void shuffleQuestions() {
+        Collections.shuffle(questions);
+    }
+
+    public void displayQuestions() {
+        for (String question : questions) {
+            System.out.println(question);
+        }
+    }
+
+    public static void main(String[] args) {
+        ExamQuestions exam = new ExamQuestions();
+
+        exam.addQuestion("What is the capital of France?");
+        exam.addQuestion("Who wrote Romeo and Juliet?");
+        exam.addQuestion("What is the powerhouse of the cell?");
+        
+        System.out.println("Original Order:");
+        exam.displayQuestions();
+
+        exam.shuffleQuestions();
+
+        System.out.println("\nShuffled Order:");
+        exam.displayQuestions();
+    }
+}
